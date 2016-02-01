@@ -1,0 +1,19 @@
+~An0nsec666
+#AnonSec Hackers
+#OpSec #AnonSecTunnel 
+#Sets bash enviornment to privoxy, Sets DNS to CCC.de(TOR)DNS & German Privacy Foundation
+#Sets Global system wide proxys & IPtable rules
+#reloads Tor deamonevery 2 minutes.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Please install if not already included
+sudo apt-get install macchanger
+sudo apt-get install nscd
+sudo apt-get install resolvconf
+sudo apt-get install dnsmasq
+takes 2 minutes.
+*****Please add my torrc file to your /etc/tor/torrc and restart tor & add my wgetrc file to /etc/wgetrc replace them both!
+chmod +x ./anonsectunnel
+chmod +x ./proxystart.sh
+./anonsectunnel has a few of its own functions you can call ex: ./anonsectunnel stopi2p
+run ./proxystart.sh 
+enjoy!
